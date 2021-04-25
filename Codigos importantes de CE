@@ -1,0 +1,27 @@
+#os codigos estão para coputação no Rstudio
+
+
+
+Fórmula de Bhaskara :  
+$$
+x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$   
+#colocar entre os $$ para que seja lido em Latex depois quando o pdf for emitido
+ 
+ 
+```{r}
+f4<-3*x +5
+```#para se definir um vetor 
+
+
+```{r echo=FALSE, out.width="500px"}  
+x <-c(1,2,3,4,5,6,7,8,9,10)
+y <- 3*x +5 
+plot(x,y,"l", col='red', main='f(x)=3x+5')
+```
+#o out.width="500px" está para se definir o tamanho do gráfico gerado
+
+
+![](https://lh3.googleusercontent.com/Npr7TpKc4pWFyQ9b40zB6Aspeia_2ZO5XuXSlf-euwMM6IlRnwH-YQu3shd8qP6zeCY=w412-h220-rw){width=40%}  
+#O codigo é usado pra pegar imagens direto da internet
+#O {width=40%} para definir o tamanho da figura
